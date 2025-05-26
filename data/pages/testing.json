@@ -1,0 +1,220 @@
+{
+  "client": {
+    "id": "soltech-001",
+    "name": "SolTech",
+    "slug": "testing"
+  },
+  "theme": "miami",
+  "body": {
+    "class": "",
+    "style": ""
+  },
+  "main": {
+    "class": "",
+    "style": ""
+  },
+  "content": {
+    "class": "",
+    "style": ""
+  },
+  "sections": [
+    {
+      "name": "header",
+      "class": "",
+      "style": "",
+      "content_img": {
+        "class": "",
+        "style": "",
+        "img": "./img/avatar.webp",
+        "alt": "Logo SolTech",
+        "img_class": "",
+        "onClick": "https://soltech.site"
+      }
+    },
+    {
+      "name": "title",
+      "class": "",
+      "style": "",
+      "title": "Soluciones Tecnológicas",
+      "tag": "h3",
+      "title_class": "",
+      "title_style": "",
+      "subtitle": {
+        "text": "Desarrollamos tu presencia digital",
+        "tag": "span",
+        "class": "",
+        "style": ""
+      }
+    },
+    {
+      "name": "icons",
+      "content_class": "",
+      "content_style": "",
+      "box_class": "",
+      "box_style": "",
+      "icon_class": "",
+      "icon_style": "",
+      "label_class": "",
+      "label_style": "",
+      "label_position": "left",
+      "effects": {
+        "visual": {
+          "icon_color": ""
+        },
+        "animation": {
+          "type": ""
+        }
+      },
+      "icons": [
+        {
+          "name": "facebook",
+          "label": "",
+          "label_position": "",
+          "onClick": "https://facebook.com/socialclick",
+          "box_class": "",
+          "icon_class": "",
+          "effects": {
+            "animation": {
+              "type": ""
+            }
+          }
+        },
+        {
+          "name": "instagram",
+          "label": "",
+          "label_position": "right",
+          "onClick": "alert('instagram')",
+          "box_class": "",
+          "icon_class": ""
+        },
+        {
+          "name": "whatsapp",
+          "label": "",
+          "label_position": "right",
+          "onClick": "https://wa.me/5492231234567",
+          "box_class": "",
+          "icon_class": "",
+          "effects": {
+            "animation": {
+              "type": ""
+            }
+          }
+        },
+        {
+          "name": "sun",
+          "label": "",
+          "label_position": "left",
+          "onClick": "alert('light')",
+          "box_class": "",
+          "icon_class": ""
+        }
+      ]
+    },
+    {
+      "name": "buttons",
+      "content_class": "",
+      "content_style": "",
+      "button_class": "preset:btn-retro",
+      "button_style": "",
+      "label_class":"",
+      "label_style":"",
+      "icon_class": "",
+      "icon_style": "",
+      "icon_position": "left",
+      "effects": {
+        "visual": {
+          "preset": "",
+          "bg_color": "",
+          "text_color": ""
+        },
+        "animation": {
+          "type": ""
+        }
+      },
+      "buttons": [
+        {
+          "label": "Web",
+          "onClick": "https://soltech.site",
+          "class": "",
+          "style": "",
+          "label_class":"",
+          "label_style":"",
+          "icon": {
+            "name": "globe-americas",
+            "class": "",
+            "style": "",
+            "position": "left"
+          },
+          "effects": {
+            "visual": {
+              "preset": "",
+              "bg_color": "",
+              "text_color": ""
+            },
+            "animation": {
+              "type": ""
+            }
+          }
+        },
+        {
+          "label": "Contactar por WhatsApp",
+          "onClick": "https://wa.me/5492231234567",
+          "class": "",
+          "style": "",
+          "icon": {
+            "name": "whatsapp",
+            "class": "",
+            "style": "",
+            "position": "right"
+          },
+          "effects": {
+            "visual": {
+              "preset": "",
+              "bg_color": "",
+              "text_color": ""
+            },
+            "animation": {
+              "type": ""
+            }
+          }
+        },
+        {
+          "label": "di hola",
+          "onClick": "msg",
+          "class": "",
+          "style": "",
+          "label_class":"",
+          "label_style":"",
+          "icon": {
+            "name": "bell",
+            "class": "me-2",
+            "style": "",
+            "position": ""
+          },
+          "effects": {
+            "visual": {
+              "preset": "",
+              "bg_color": "",
+              "text_color": ""
+            },
+            "animation": {
+              "type": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "footer",
+      "content_class": "",
+      "content_style": "",
+      "content": {
+        "text": "© 2025 SocialClick by SolTech",
+        "tag": "span",
+        "class": "",
+        "style": "",
+        "onClick": "https://socialclick.com.ar"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+/* 🔧 Display */
+.flex         { display: flex; }
+.inline-flex  { display: inline-flex; }
+
+/* 🔄 Dirección */
+.flex-row            { flex-direction: row; }
+.flex-row-reverse    { flex-direction: row-reverse; }
+.flex-col            { flex-direction: column; }
+.flex-col-reverse    { flex-direction: column-reverse; }
+
+/* ↔️ Flex wrap */
+.flex-wrap           { flex-wrap: wrap; }
+.flex-nowrap         { flex-wrap: nowrap; }
+.flex-wrap-reverse   { flex-wrap: wrap-reverse; }
+
+/* 🎯 Justify content */
+.justify-start       { justify-content: flex-start; }
+.justify-center      { justify-content: center; }
+.justify-end         { justify-content: flex-end; }
+.justify-between     { justify-content: space-between; }
+.justify-around      { justify-content: space-around; }
+.justify-evenly      { justify-content: space-evenly; }
+
+/* 🧍 Justify Self (solo para Grid) */
+.justify-self-auto     { justify-self: auto; }
+.justify-self-start    { justify-self: start; }
+.justify-self-center   { justify-self: center; }
+.justify-self-end      { justify-self: end; }
+.justify-self-stretch  { justify-self: stretch; }
+
+
+/* 🎯 Align items */
+.items-start         { align-items: flex-start; }
+.items-center        { align-items: center; }
+.items-end           { align-items: flex-end; }
+.items-stretch       { align-items: stretch; }
+.items-baseline      { align-items: baseline; }
+
+/* 🎯 Align content */
+.content-start       { align-content: flex-start; }
+.content-center      { align-content: center; }
+.content-end         { align-content: flex-end; }
+.content-between     { align-content: space-between; }
+.content-around      { align-content: space-around; }
+.content-evenly      { align-content: space-evenly; }
+.content-stretch     { align-content: stretch; }
+
+/* 🧍‍♂️ Align Self */
+.self-auto       { align-self: auto; }
+.self-start      { align-self: flex-start; }
+.self-center     { align-self: center; }
+.self-end        { align-self: flex-end; }
+.self-stretch    { align-self: stretch; }
+.self-baseline   { align-self: baseline; }
+
+
+/* 💥 Especiales combinados */
+.flex-center         { display: flex; justify-content: center; align-items: center; }
+.flex-col-center     { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.flex-col-start     { display: flex; flex-direction: column; justify-content: start; align-items: center; }
+.flex-col-end     { display: flex; flex-direction: column; justify-content: end; align-items: center; }
+.flex-col-between    { display: flex; flex-direction: column; justify-content: space-between; }
+.flex-row-between    { display: flex; flex-direction: row; justify-content: space-between; }
+.flex-col-around     { display: flex; flex-direction: column; justify-content: space-around; }
+.flex-row-around     { display: flex; flex-direction: row; justify-content: space-around; }

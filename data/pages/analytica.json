@@ -1,0 +1,30 @@
+{
+    "client_id": "soltech-001",
+    "slug": "soltech",
+    "visits": 1523,
+    "unique_visitors": 728,
+    "avg_retention_seconds": 34.8,
+    "bounce_rate": 0.18,
+    "first_access": "2025-04-01T10:00:00Z",
+    "last_access": "2025-05-05T14:30:21Z",
+    "clicks": {
+      "buttons": {
+        "Tienda": 138,
+        "WhatsApp": 412
+      },
+      "icons": {
+        "facebook": 220,
+        "moon": 57
+      }
+    },
+    "devices": {
+      "mobile": 1240,
+      "desktop": 180,
+      "tablet": 103
+    },
+    "languages": {
+      "es": 1100,
+      "en": 380
+    }
+  }
+  

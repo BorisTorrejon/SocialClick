@@ -1,0 +1,167 @@
+{
+  "theme": "miami",
+  "body": {
+    "class": "",
+    "style": ""
+  },
+  "main": {
+    "class": "single-page flex-center bg-mono-900",
+    "style": ""
+  },
+  "content": {
+    "class": "bg-mono-400 rounded-lg",
+    "style": "width:350px;height:600px"
+  },
+  "sections": {
+    "header": {
+      "class": "overflow-visible h-10 relative flex-center bg-cyan-200",
+      "style": "",
+      "content_img": {
+        "class": "absolute p-1 bg-mono-900 shape-circle pos-bottom-overlap",
+        "style": "",
+        "img_class": "size-5 shape-circle"
+      }
+    },
+    "title": {
+      "class": "h-20 flex-col-end bg-pink-200",
+      "style": "",
+      "tag": "h2",
+      "title_class": "text-xl font-bold text-mono-900",
+      "title_style": "",
+      "subtitle": {
+        "tag": "p",
+        "class": "text-sm text-mono-700",
+        "style": ""
+      }
+    },
+    "icons": {
+      "content_class": "h-10 flex-center gap-4 bg-green-200",
+      "content_style": "",
+      "box_class": "icon-xl text-lg rounded-full p-2 border-solid border-mono-700 flex-center",
+      "box_style": "",
+      "icon_class": "",
+      "icon_style": "",
+      "label_class": "ml-2 text-sm",
+      "label_style": "",
+      "label_position":"left",
+      "effects": {
+        "visual": {
+          "icon_color": "text-cyan-600"
+        },
+        "animation": {
+          "type": "pulse"
+        }
+      },
+      "icons": [
+        {
+          "label_position": "right",
+          "box_class": "",
+          "icon_class": "text-blue-600",
+          "effects": {
+            "animation": {
+              "type": "scale"
+            }
+          }
+        },
+        {
+          "label_position": "left",
+          "box_class": "",
+          "icon_class": "text-red-600"
+        },
+        {
+          "label_position": "right",
+          "box_class": "",
+          "icon_class": "text-green-600",
+          "effects": {
+            "animation": {
+              "type": "bounce"
+            }
+          }
+        },
+        {
+          "label_position": "right",
+          "box_class": "",
+          "icon_class": "text-yellow-600",
+          "effects": {
+            "animation": {
+              "type": "bounce"
+            }
+          }
+        }
+      ]
+    },
+    "buttons": {
+      "content_class": "h-50 flex-col-start gap-4",
+      "content_style": "",
+      "button_class": "w-80 h-2rem flex-center relative border-solid border-mono-700",
+      "button_style": "",
+      "label_class":"text-neutral-200",
+      "label_style":"",
+      "icon_class": "absolute left-4",
+      "icon_style": "",
+      "icon_position": "left",
+      "effects": {
+        "visual": {
+          "preset": "",
+          "bg_color": "",
+          "text_color": ""
+        },
+        "animation": {
+          "type": ""
+        }
+      },
+      "buttons": [
+        {
+          "class": "bg-cyan-200",
+          "style": "",
+          "label_class":"",
+          "label_style":"",
+          "icon": {
+            "class": "me-2",
+            "style": "",
+            "position": "left"
+          },
+          "effects": {
+            "visual": {
+              "preset": "btn-whatsapp",
+              "bg_color": "bg-green-700",
+              "text_color": "text-white"
+            },
+            "animation": {
+              "type": "bounce"
+            }
+          }
+        },
+        {
+          "class": "",
+          "style": "",
+          "label_class":"",
+          "label_style":"",
+          "icon": {
+            "class": "me-2",
+            "style": "",
+            "position": "left"
+          },
+          "effects": {
+            "visual": {
+              "preset": "btn-whatsapp",
+              "bg_color": "bg-green-700",
+              "text_color": ""
+            },
+            "animation": {
+              "type": "bounce"
+            }
+          }
+        }
+      ]
+    },
+    "footer": {
+      "content_class": "h-10 flex-col-end bg-red-200",
+      "content_style": "",
+      "content": {
+        "class": "",
+        "style": ""
+      }
+    }
+  }
+}

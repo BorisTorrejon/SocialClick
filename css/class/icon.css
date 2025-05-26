@@ -1,0 +1,35 @@
+@import url(../core/_variables-measurements.css);
+
+/* 🧱 Tamaños de íconos (cuadrados) */
+.icon-2xs { width: 0.5rem; height: 0.5rem; }   /* muy pequeños, badges, adornos */
+.icon-xs  { width: 0.75rem; height: 0.75rem; } /* para texto o etiquetas */
+.icon-sm  { width: 1rem; height: 1rem; }       /* uso estándar en línea */
+.icon-md  { width: 1.5rem; height: 1.5rem; }   /* botones pequeños */
+.icon-lg  { width: 2rem; height: 2rem; }       /* botones grandes / menú */
+.icon-xl  { width: 3rem; height: 3rem; }       /* secciones o íconos destacados */
+.icon-2xl { width: 4rem; height: 4rem; }       /* íconos grandes decorativos */
+.icon-3xl { width: 6rem; height: 6rem; }       /* hero sections o icon blocks */
+.icon-4xl { width: 8rem; height: 8rem; }       /* extremadamente grande */
+
+/* 📏 Porcentajes (relativos al contenedor) */
+.icon-p10  { width: var(--size-10); height: var(--size-10); }
+.icon-p20  { width: var(--size-20); height: var(--size-20); }
+.icon-p30  { width: var(--size-30); height: var(--size-30); }
+.icon-p40  { width: var(--size-40); height: var(--size-40); }
+.icon-p50  { width: var(--size-50); height: var(--size-50); }
+
+/* 🧩 Fracciones comunes */
+.icon-1-2  { width: var(--size-1-2); height: var(--size-1-2); }
+.icon-1-3  { width: var(--size-1-3); height: var(--size-1-3); }
+.icon-1-4  { width: var(--size-1-4); height: var(--size-1-4); }
+
+/* 📐 Especiales */
+.icon-fit     { width: var(--size-fit); height: var(--size-fit); }
+.icon-full    { width: var(--size-full); height: var(--size-full); }
+.icon-auto    { width: var(--size-auto); height: var(--size-auto); }
+.icon-inherit { width: var(--size-inherit); height: var(--size-inherit); }
+
+/* 🌐 Responsive con clamp */
+.icon-clamp-sm { width: var(--size-clamp-sm); height: var(--size-clamp-sm); }
+.icon-clamp-md { width: var(--size-clamp-md); height: var(--size-clamp-md); }
+.icon-clamp-lg { width: var(--size-clamp-lg); height: var(--size-clamp-lg); }
